@@ -1,3 +1,2 @@
 # Update brew packages list and fill outdated report
 0 * * * *       /usr/local/bin/brew update && /usr/local/bin/brew outdated > $HOME/.brew_outdated_report
-*/5 * * * *     /usr/local/bin/brew outdated > $HOME/.brew_outdated_report
